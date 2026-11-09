@@ -1,0 +1,17 @@
+[project]
+name = "judicatura"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiolimiter>=1.3.0",
+    "alembic>=1.20.0",
+    "httpx>=0.28.1",
+    "ipykernel>=7.4.0",
+    "orjson>=3.13.0",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.14.1",
+    "sqlalchemy>=2.1.5",
+    "tenacity>=9.2.1",
+]
