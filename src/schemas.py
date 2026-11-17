@@ -42,6 +42,17 @@ class Judge(_Record):
         return clean_name(value)
 
 
+class JudgeScrapeStatus(Judge):
+    """judges.json de la carpeta de cada juez: el juez + el estado de su última extracción de juicios.
+
+    Los campos de estado no existen en la tabla judges (store_db.py solo inserta las columnas de la tabla).
+    """
+
+    total_trials_stored: int = Field(default=0, ge=0)  # juicios guardados en trials.json
+    scrapping_failed: bool = False  # hubo algún fallo definitivo al extraer los juicios del juez
+    last_page_failed: int = Field(default=0, ge=0)  # offset "page" donde se cortó la paginación (0 = sin corte)
+
+
 class Trial(_Record):
     id: str
     crime: str
@@ -78,7 +89,7 @@ class UpdateIncident(_Record):
 # Nombre lógico -> (archivo JSON, tabla, modelo). El orden respeta las FKs.
 DATASETS: dict[str, tuple[str, str, type[_Record]]] = {
     "areas": ("areas.json", "areas", Area),
-    "judges": ("judges.json", "judges", Judge),
+    "judges": ("judges.json", "judges", JudgeScrapeStatus),  # acepta también judges.json sin campos de estado
     "trials": ("trials.json", "trials", Trial),
     "incident_trials": ("incident_trials.json", "incidents_trials", IncidentTrial),
     "updates_incidents": ("updates_incidents.json", "updates_incidents", UpdateIncident),

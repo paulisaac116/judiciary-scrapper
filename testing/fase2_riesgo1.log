@@ -1,0 +1,60 @@
+2026-11-16 15:17:00,730 INFO scrapper: Body de búsqueda: {"resultadoSearch":{"idMateria":[1,2,3,4,5,6,7,8,9,10,11,12,19,22,27,28,29,30,31,32,33,34,35,36,37],"identificacionJuez":"","fechaInicio":"01/01/2021","fechaFin":"16/11/2026","idProvincia":""}}
+2026-11-16 15:17:00,733 INFO scrapper: === Juez 1707201909 (BUSTOS TELLO JOEL FRANCISCO) -> C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1707201909
+2026-11-16 15:17:00,876 WARNING scrapper: Retrying <unknown> in 1.59 seconds as it raised IncompletePageError: juez 1707201909 page=1: 0 registros, se esperaban 79 (total 79).
+2026-11-16 15:17:02,510 WARNING scrapper: Retrying <unknown> in 2.36 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=24 < 79 ya visto.
+2026-11-16 15:17:05,140 WARNING scrapper: Retrying <unknown> in 4.33 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=68 < 79 ya visto.
+2026-11-16 15:17:09,522 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=24 < 79 ya visto.
+2026-11-16 15:17:14,607 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=29 < 79 ya visto.
+2026-11-16 15:17:19,682 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=24 < 79 ya visto.
+2026-11-16 15:17:24,758 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=65 < 79 ya visto.
+2026-11-16 15:17:29,856 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=24 < 79 ya visto.
+2026-11-16 15:17:34,931 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=24 < 79 ya visto.
+2026-11-16 15:17:40,009 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=74 < 79 ya visto.
+2026-11-16 15:17:45,091 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=50 < 79 ya visto.
+2026-11-16 15:17:50,202 WARNING scrapper: Juez 1707201909: page=1 informa total 412 > 79; se adopta como referencia
+2026-11-16 15:17:50,202 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: 0 registros, se esperaban 100 (total 412).
+2026-11-16 15:17:55,288 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=1: totalRegistros=29 < 412 ya visto.
+2026-11-16 15:18:00,406 INFO scrapper: Juez 1707201909: page=1 -> 100 juicios, 100 desde 2021-01-01 (total API: 412)
+2026-11-16 15:18:00,436 WARNING scrapper: Retrying <unknown> in 1.8 seconds as it raised IncompletePageError: juez 1707201909 page=101: totalRegistros=24 < 412 ya visto.
+2026-11-16 15:18:02,509 WARNING scrapper: Retrying <unknown> in 2.32 seconds as it raised IncompletePageError: juez 1707201909 page=101: totalRegistros=24 < 412 ya visto.
+2026-11-16 15:18:04,872 WARNING scrapper: Retrying <unknown> in 4.15 seconds as it raised IncompletePageError: juez 1707201909 page=101: totalRegistros=68 < 412 ya visto.
+2026-11-16 15:18:09,113 INFO scrapper: Juez 1707201909: page=101 -> 100 juicios, 100 desde 2021-01-01 (total API: 412)
+2026-11-16 15:18:09,153 WARNING scrapper: Retrying <unknown> in 1.98 seconds as it raised IncompletePageError: juez 1707201909 page=201: totalRegistros=101 < 412 ya visto.
+2026-11-16 15:18:11,206 INFO scrapper: Juez 1707201909: page=201 -> 100 juicios, 100 desde 2021-01-01 (total API: 412)
+2026-11-16 15:18:11,244 WARNING scrapper: Retrying <unknown> in 1.71 seconds as it raised IncompletePageError: juez 1707201909 page=301: totalRegistros=119 < 412 ya visto.
+2026-11-16 15:18:13,009 WARNING scrapper: Retrying <unknown> in 2.5 seconds as it raised IncompletePageError: juez 1707201909 page=301: totalRegistros=97 < 412 ya visto.
+2026-11-16 15:18:15,787 WARNING scrapper: Retrying <unknown> in 4.26 seconds as it raised IncompletePageError: juez 1707201909 page=301: totalRegistros=24 < 412 ya visto.
+2026-11-16 15:18:20,129 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=301: totalRegistros=29 < 412 ya visto.
+2026-11-16 15:18:25,229 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=301: 0 registros, se esperaban 100 (total 412).
+2026-11-16 15:18:30,347 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=301: 0 registros, se esperaban 100 (total 412).
+2026-11-16 15:18:35,459 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=301: 0 registros, se esperaban 100 (total 412).
+2026-11-16 15:18:40,573 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1707201909 page=301: totalRegistros=100 < 412 ya visto.
+2026-11-16 15:18:45,731 INFO scrapper: Juez 1707201909: page=301 -> 100 juicios, 100 desde 2021-01-01 (total API: 412)
+2026-11-16 15:18:45,799 INFO scrapper: Juez 1707201909: page=401 -> 12 juicios, 12 desde 2021-01-01 (total API: 412)
+2026-11-16 15:18:46,005 WARNING scrapper: Juez 1707201909: totales inconsistentes de la API [24, 29, 50, 65, 68, 74, 79, 97, 100, 101, 119, 412]; se usó 412
+2026-11-16 15:18:46,005 INFO scrapper: Juez 1707201909: obteniendo detalle de 411 juicios
+2026-11-16 15:20:07,823 INFO scrapper: trials: 411 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1707201909\trials.json
+2026-11-16 15:20:07,824 INFO scrapper: judges: 1 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1707201909\judges.json
+2026-11-16 15:20:07,824 INFO scrapper: === Juez 1711294445 (MOLINA GONZALEZ TANIA CATERINE) -> C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1711294445
+2026-11-16 15:20:08,264 WARNING scrapper: Retrying <unknown> in 1.28 seconds as it raised IncompletePageError: juez 1711294445 page=1: 1 registros, se esperaban 100 (total 396).
+2026-11-16 15:20:09,592 WARNING scrapper: Retrying <unknown> in 2.76 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=22 < 396 ya visto.
+2026-11-16 15:20:12,429 WARNING scrapper: Retrying <unknown> in 4.81 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=22 < 396 ya visto.
+2026-11-16 15:20:17,516 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: 1 registros, se esperaban 100 (total 396).
+2026-11-16 15:20:22,614 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=22 < 396 ya visto.
+2026-11-16 15:20:29,860 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=23 < 396 ya visto.
+2026-11-16 15:20:34,930 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=23 < 396 ya visto.
+2026-11-16 15:20:40,047 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: 1 registros, se esperaban 100 (total 396).
+2026-11-16 15:20:45,152 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=99 < 396 ya visto.
+2026-11-16 15:20:50,269 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=80 < 396 ya visto.
+2026-11-16 15:20:55,382 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=22 < 396 ya visto.
+2026-11-16 15:21:02,586 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=58 < 396 ya visto.
+2026-11-16 15:21:07,669 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=22 < 396 ya visto.
+2026-11-16 15:21:14,899 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1711294445 page=1: totalRegistros=23 < 396 ya visto.
+2026-11-16 15:21:19,967 ERROR scrapper: Fallo definitivo POST https://api.funcionjudicial.gob.ec/MANTICORE-SERVICE/api/manticore/consulta/procesos-judiciales-resueltos: IncompletePageError('juez 1711294445 page=1: totalRegistros=22 < 396 ya visto')
+2026-11-16 15:21:19,967 ERROR scrapper: Juez 1711294445: paginación interrumpida en page=1; los juicios quedan incompletos
+2026-11-16 15:21:19,967 WARNING scrapper: Juez 1711294445: totales inconsistentes de la API [22, 23, 58, 80, 99, 396]; se usó 396
+2026-11-16 15:21:19,967 INFO scrapper: Juez 1711294445: obteniendo detalle de 0 juicios
+2026-11-16 15:21:19,968 INFO scrapper: trials: 0 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1711294445\trials.json
+2026-11-16 15:21:19,969 INFO scrapper: judges: 1 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1711294445\judges.json
+2026-11-16 15:21:19,969 ERROR scrapper: Juez 1711294445: extracción INCOMPLETA (0 de 396 juicios, last_page_failed=1); reanude con --resume
+2026-11-16 15:21:19,969 INFO scrapper: Peticiones HTTP: 459 | fallos definitivos: 1

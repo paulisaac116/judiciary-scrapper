@@ -118,7 +118,8 @@ def upsert(conn: Connection, name: str, records: list[dict[str, Any]], batch_siz
     table = model.__table__
     inserted = updated = 0
     for start in range(0, len(records), batch_size):
-        batch = records[start:start + batch_size]
+        # Solo las columnas de la tabla: judges.json trae además campos de estado del scraping que no se persisten.
+        batch = [{k: v for k, v in r.items() if k in table.c} for r in records[start:start + batch_size]]
         stmt = insert(table).values(batch)
         stmt = stmt.on_conflict_do_update(
             index_elements=[table.c.id],

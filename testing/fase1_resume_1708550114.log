@@ -1,0 +1,26 @@
+2026-11-16 15:11:17,637 INFO scrapper: Body de búsqueda: {"resultadoSearch":{"idMateria":[1,2,3,4,5,6,7,8,9,10,11,12,19,22,27,28,29,30,31,32,33,34,35,36,37],"identificacionJuez":"","fechaInicio":"01/01/2021","fechaFin":"16/11/2026","idProvincia":""}}
+2026-11-16 15:11:17,640 INFO scrapper: === Juez 1708550114 (GALLARDO TAPIA GERMAN OMAR) -> C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1708550114
+2026-11-16 15:11:17,641 INFO scrapper: Juez 1708550114: se reanuda desde page=301 (total conocido 886)
+2026-11-16 15:11:24,047 WARNING scrapper: Juez 1708550114: page=301 informa total 3173 > 886; se adopta como referencia
+2026-11-16 15:11:24,048 WARNING scrapper: Retrying <unknown> in 1.73 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:11:25,880 WARNING scrapper: Retrying <unknown> in 2.36 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:11:28,292 WARNING scrapper: Retrying <unknown> in 4.23 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:11:32,624 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:11:37,706 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:11:42,825 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=452 < 3173 ya visto.
+2026-11-16 15:11:47,947 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:11:53,033 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:11:58,162 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:12:03,250 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=435 < 3173 ya visto.
+2026-11-16 15:12:08,330 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:12:13,412 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:12:18,489 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: totalRegistros=290 < 3173 ya visto.
+2026-11-16 15:12:23,613 WARNING scrapper: Retrying <unknown> in 5 seconds as it raised IncompletePageError: juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173).
+2026-11-16 15:12:28,746 ERROR scrapper: Fallo definitivo POST https://api.funcionjudicial.gob.ec/MANTICORE-SERVICE/api/manticore/consulta/procesos-judiciales-resueltos: IncompletePageError('juez 1708550114 page=301: 0 registros, se esperaban 100 (total 3173)')
+2026-11-16 15:12:28,746 ERROR scrapper: Juez 1708550114: paginación interrumpida en page=301; los juicios quedan incompletos
+2026-11-16 15:12:28,746 WARNING scrapper: Juez 1708550114: totales inconsistentes de la API [290, 435, 452, 3173]; se usó 3173
+2026-11-16 15:12:28,746 INFO scrapper: Juez 1708550114: obteniendo detalle de 0 juicios
+2026-11-16 15:12:28,755 INFO scrapper: trials: 299 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1708550114\trials.json
+2026-11-16 15:12:28,756 INFO scrapper: judges: 1 registros escritos en C:\Users\paulg\Documents\People\Judicatura\judicatura-code\json\PICHINCHA\1708550114\judges.json
+2026-11-16 15:12:28,756 ERROR scrapper: Juez 1708550114: extracción INCOMPLETA (299 de 3173 juicios, last_page_failed=301); reanude con --resume
+2026-11-16 15:12:28,756 INFO scrapper: Peticiones HTTP: 15 | fallos definitivos: 1
